@@ -25,11 +25,11 @@
         position: sticky;
         left: 62%;
         top: 25px;
+        border: 1px solid #6047EC;
 }
 
 .spent-time h3 {
         text-align: center;
-        padding-top: 22px;
         font-size: 1.5rem;
 }
 

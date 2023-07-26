@@ -5,4 +5,13 @@
     width: 350px;
     margin: auto;
     border-radius: 8px;
+    position: relative;
+    top: 32px;
+}
+
+.bookmark-body p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: relative;
+    top: 10px;
 }
