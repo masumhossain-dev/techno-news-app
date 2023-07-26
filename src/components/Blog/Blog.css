@@ -1,0 +1,30 @@
+.post-container .post-image img{
+        width: 800px;
+        border-radius: 8px;
+        margin: 32px 0px 10px 0px;    
+}
+.post-container{
+        margin-bottom: 1px solid white;
+}
+.author{
+        display:flex;
+        align-items: center;
+}
+.author img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+}
+.author .author-details h4, p{
+        margin: 5px 20px;
+}
+.author .author-details h4{
+        font-size: 20px;
+}
+
+.posts p{
+        margin: 0px;
+}
+.posts h1{
+        margin: 15px 0px;
+}
