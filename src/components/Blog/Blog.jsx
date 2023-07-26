@@ -3,7 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
 const Blog = (props) => {
-  const { id, author_name, image, author_image, title, post_date } = props.blog;
+  const { author_name, image, author_image, title, post_date} = props.blog;
+  const handlerDataReceiver = props.handlerDataReceiver;
+
   return (
     <div className="post-container">
       <div className="post-image">
@@ -22,9 +24,13 @@ const Blog = (props) => {
         </div>
         <p className="bookmark-icon">
           5 min read
-          <span>
+          <a
+            onClick={() => {
+              handlerDataReceiver(title)
+            }}
+          >
             <FontAwesomeIcon icon={faBookmark} />
-          </span>
+          </a>
         </p>
       </div>
 

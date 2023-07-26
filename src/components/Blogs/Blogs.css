@@ -1,4 +1,47 @@
-.blogs{
+.blogs {
         display: grid;
         grid-template-columns: 2fr 1fr;
+}
+
+.blog-content {
+        max-width: 845px;
+}
+
+.blog-viewed {
+        margin: 0 auto;
+        max-width: 411px;
+
+}
+
+.spent-time {
+
+        background-color: rgba(96, 71, 236, .10);
+        height: 80px;
+        width: 411px;
+        border-radius: 8px;
+        font-weight: bold;
+        color: #6047EC;
+        margin: 32px 0px 0px 7px;
+        position: sticky;
+        left: 62%;
+        top: 25px;
+}
+
+.spent-time h3 {
+        text-align: center;
+        padding-top: 22px;
+        font-size: 1.5rem;
+}
+
+.bookmarks {
+        height: 800px;
+        width: 411px;
+        background-color: rgba(17, 17, 17, .05);
+        border-radius: 8px;
+        border-radius: 8px;
+        font-weight: bold;
+        margin: 32px 0px 0px 7px;
+        position: sticky;
+        left: 62%;
+        top: 140px;
 }

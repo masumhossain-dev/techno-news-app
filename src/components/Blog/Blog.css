@@ -1,5 +1,5 @@
 .post-container .post-image img{
-        width: 900px;
+        width: 845px;
         border-radius: 8px;
         margin: 32px 0px 10px 0px;    
 }
@@ -34,6 +34,11 @@
         display: flex;
         justify-content: space-between;
 }
-.author-section .bookmark-icon span{ 
+.author-section .bookmark-icon a{ 
         margin-left: 10px;
+        color: black;
+}
+
+.bookmark-icon{
+        cursor: pointer;
 }
