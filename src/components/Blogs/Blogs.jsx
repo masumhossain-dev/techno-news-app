@@ -13,13 +13,17 @@ const Blogs = () => {
   }, []);
 
   const handlerDataReceiver = (data)=>{
-    setReceivedData(data);
+    const newData = [...receivedData, data];
+
+    setReceivedData(newData);
   }
   return (
     <div className="blogs">
       <div className="blog-content">
         {blogs.map((blog) => (
-          <Blog key={blog.id} blog={blog}
+          <Blog
+          key={blog.id}
+          blog={blog}
           handlerDataReceiver={handlerDataReceiver}
           ></Blog>
         ))}
@@ -29,7 +33,9 @@ const Blogs = () => {
           <h3>Spent time on read: {}min</h3>
         </div>
         <div className="bookmarks">
-        <Bookmarks data={receivedData}></Bookmarks>
+        <Bookmarks
+        receivedData={receivedData}
+        ></Bookmarks>
       </div>
       </div>
 

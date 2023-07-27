@@ -1,44 +1,57 @@
-.post-container .post-image img{
+.post-container .post-image img {
         width: 845px;
         border-radius: 8px;
-        margin: 32px 0px 10px 0px;    
+        margin: 32px 0px 10px 0px;
 }
-.author{
-        display:flex;
+
+.author {
+        display: flex;
         align-items: center;
 }
-.author img{
+
+.author img {
         width: 60px;
         height: 60px;
         border-radius: 50%;
 }
-.author .author-details h4, p{
+
+.author .author-details h4,
+p {
         margin: 5px 20px;
 }
-.author .author-details h4{
+
+.author .author-details h4 {
         font-size: 20px;
 }
 
-.posts p{
+.posts p {
         margin: 0px 0px 50px 0px;
 }
-.posts h1{
+
+.posts h1 {
         margin: 15px 0px;
 }
-.posts a{
+
+.posts a {
         text-decoration: underline;
         font-weight: bold;
         color: #6047EC;
 }
-.author-section{
+
+.author-section {
         display: flex;
         justify-content: space-between;
 }
-.author-section .bookmark-icon a{ 
+
+.author-section .bookmark-icon a {
         margin-left: 10px;
         color: black;
 }
 
-.bookmark-icon{
+.bookmark-icon {
         cursor: pointer;
+}
+
+.after-click {
+        color: white;
 }

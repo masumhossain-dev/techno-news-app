@@ -1,11 +1,16 @@
+
 import './Bookmarks.css';
 
-const Bookmarks = ({data}) => {
-  const receivedData = data;
-
+const Bookmarks = ({receivedData}) => {
+  for(var d  of receivedData){
+    console.log(d)
+  }
   return (
     <div className='bookmark-body'>
-      <p>{receivedData}</p>
+      <li>{d}</li>
+      {
+        
+      }
     </div>
   );
 };
